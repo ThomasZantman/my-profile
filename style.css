@@ -1,0 +1,212 @@
+body {
+	cursor: url("coeur.png"), default;
+	background: beige;
+	color: 1B262C;
+	font-family: Arial;
+	font-size: 20px;
+	line-height: ;
+	letter-spacing: ;
+	font-weight: ;
+	text-decoration: ;
+	text-center: ;
+
+}
+
+
+h1, h2, h3, h4 {
+	font-family: Helvetica;
+	color: red;
+    text-justify: center;
+}
+
+a {
+	text-decoration: none;
+	color:  #0F4C75;
+
+}
+a:hover {
+	color: dark;
+	font-weight: bold;
+}
+
+
+	
+
+.container {
+	text-align: justify;
+	width: 1070px;
+	border-radius: 10px;
+	border: 5px solid mediumpurple;
+	text-align: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 100px;
+	color: darkgreen;
+	background-color: whitesmoke;
+}
+
+#profile {
+	width: 170px;
+	border-radius: 150%;
+	margin: 40px auto;
+	border: 5px solid mediumpurple;
+    display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+}
+
+.debut {
+	text-align: center;
+}
+
+.prez {
+	text-align: justify;
+	width: 900px;
+	border-radius: 10px;
+	border: 5px solid mediumpurple;
+	text-align: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 60px;
+	color: darkgreen;
+	background-color: #CAF0F8;
+
+}
+
+.adblock {
+    text-align: justify;
+	width: 418px;
+	border-radius: 10px;
+	border: 5px solid mediumpurple;
+	text-align: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+	color: black;
+	background-color: whitesmoke;
+}
+
+.film {
+	text-align: justify;
+	width: 700px;
+	border-radius: 10px;
+	border-top: 10px solid #92BA92;
+	border-right: 10px solid #3282B8;
+	border-left: 10px solid #3282B8;
+	border-bottom: 10px solid #3282B8;
+	text-align: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin: 40px auto;
+	margin-bottom: 20px;
+	background-color: #CAF0F8;
+	box-shadow: 10px 10px 0px 0px rgba(0,0,0,0.1);
+}
+
+.musique {
+	text-align: justify;
+	border-radius: 10px;
+	border-top: 10px solid #92BA92;
+	border-right: 10px solid #3282B8;
+	border-left: 10px solid #3282B8;
+	border-bottom: 10px solid #3282B8;
+	text-align: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 700px;
+	margin-bottom: 20px;
+	background-color: #CAF0F8;
+	box-shadow: 10px 10px 0px 0px rgba(0,0,0,0.1);
+}
+
+.crypto {
+	text-align: justify;
+	width: 700px;
+	border-radius: 10px;
+	border-top: 10px solid #92BA92;
+	border-right: 10px solid #3282B8;
+	border-left: 10px solid #3282B8;
+	border-bottom: 10px solid #3282B8;
+	text-align: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 60px;
+	background-color: #CAF0F8;
+	box-shadow: 10px 10px 0px 0px rgba(0,0,0,0.1);
+}
+
+.follow{
+	text-align: justify;
+	width: 900px;
+	border-radius: 10px;
+	border: 5px solid #92BA92;
+	text-align: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #CAF0F8;
+	border-bottom: 0px;
+	margin-bottom: 0px;
+}
+
+.liste {
+	list-style: none;
+	padding-left: 0px;
+	padding-top: 0px;
+	padding-bottom: 1px;
+
+
+}
+.liste li{
+	 display: inline;
+	 padding: 10px;
+}
+.liste i {
+	font-size: 40px;
+	color: #00ACEE;
+}
+.liste i: hover {
+	font-size: 40px;
+	color: black;
+	cursor: url("coeur.png"), default;
+}
+
+#menu ul li i:hover { 
+	font-size: 40px;
+	color: black;
+	cursor: url("coeur.png"), default;
+}
+
+
+
+
+@media (max-width: 960px) {
+  .tout, .container, .prez, .debut, .film, .musique,.crypto, .follow {
+    width: 700px !important;
+    background-color: blueviolet;
+    margin: 40px auto !important;
+  }
+
+}
+@media (max-width: 720px) {
+   .tout, .container, .prez, .debut, .film, .musique,.crypto, .follow {
+    width: 500px !important;
+    background-color: indianred;
+     margin: 40px auto !important;
+  }
+}
+@media (max-width: 540px) {
+    .tout, .container, .prez, .debut, .film, .musique,.crypto, .follow, .adblock {
+    width: 300px !important;
+    background-color: black;
+     margin: 40px auto !important;
+  }
+}
+
